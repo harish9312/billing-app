@@ -1,0 +1,114 @@
+.row-card {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  text-align: left;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  margin: 10px;
+  .row-data {
+    min-width: 50%;
+    padding: 10px;
+  }
+}
+
+.header-name {
+  // box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.back-button {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.fa-trash-o {
+  font-size: 20px;
+  position: absolute;
+  right: 20px;
+}
+
+.name-label {
+  font-weight: 200;
+}
+.customer-home {
+  min-width: 100%;
+  .row-data-new {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.net-fine-container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.net-fine-remain {
+  min-height: 50px;
+  min-width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  flex-direction: column;
+  .name-label {
+    font-size: 16px;
+    text-decoration: un;
+  }
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.logout {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.customer-add {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+}
+
+.ant-picker {
+  width: 100%;
+}
+
+.ant-tabs-tab {
+  min-width: 50%;
+  text-align: center;
+  justify-content: center;
+}
+
+.ant-tabs-nav-wrap {
+  display: block !important;
+}
+
+.top-pane {
+  position: fixed;
+  background: white;
+  width: 100%;
+  z-index: 1;
+}
+
+.transactions {
+  position: relative;
+  top: 270px;
+}
+
+.top-name {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background: white;
+  z-index: 10;
+  position: relative;
+}
+
+.top-to-edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

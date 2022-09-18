@@ -1,5 +1,26 @@
+@import "antd/dist/antd.css";
+
+html,
+body,
+#root {
+  height: 100%;
+}
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-main {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-logo {
